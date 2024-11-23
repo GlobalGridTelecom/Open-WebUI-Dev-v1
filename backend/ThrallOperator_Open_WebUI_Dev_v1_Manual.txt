@@ -1,0 +1,44 @@
+Steps to Start open-webui-dev-v1
+Run Docker Compose
+
+cd "E:\Visual Studio Projects - All Versions\Open-WebUI-Dev-v1\backend"
+
+Then from E:\Visual Studio Projects - All Versions\Open-WebUI-Dev-v1\backend execute:
+
+docker-compose up --build
+Detach Mode (Optional)
+
+Or to run it in the background (detached mode):
+
+docker-compose up --build -d
+Stop and Remove Containers
+
+
+
+
+
+To STOP and REMOVE any existing containers to avoid conflicts:
+
+docker-compose down
+Check Running Containers
+
+
+
+
+Verify that the containers are running:
+
+docker ps
+Verifying
+Access the App:
+
+
+
+Open your browser and navigate to:
+Local: http://localhost
+Public: https://thralloperator.com (if SSL is properly configured)
+Check Logs:
+
+To view the logs for troubleshooting:
+powershell
+Copy code
+docker-compose logs

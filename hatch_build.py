@@ -14,7 +14,7 @@ class CustomBuildHook(BuildHookInterface):
         npm = shutil.which("npm")
         if npm is None:
             raise RuntimeError(
-                "NodeJS `npm` is required for building Open Webui but it was not found"
+                "NodeJS `npm` is required for building ThrallDoor but it was not found"
             )
         stderr.write("### npm install\n")
         subprocess.run([npm, "install"], check=True)  # noqa: S603

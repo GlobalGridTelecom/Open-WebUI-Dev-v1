@@ -5,14 +5,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{f256c2df-02b5-4ec5-b79e-9edaac8ba932}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>hatch_build.py</StartupFile>
+    <StartupFile>E:\Visual Studio Projects - All Versions\Open-WebUI-Dev-v1\backend\open_webui\main.py</StartupFile>
     <SearchPath />
-    <WorkingDirectory>.</WorkingDirectory>
+    <WorkingDirectory>E:\Visual Studio Projects - All Versions\Open-WebUI-Dev-v1\backend\</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <InterpreterId>Global|PythonCore|3.12</InterpreterId>
     <Name>Open-WebUI-Dev-v1</Name>
+    <TestFramework>Pytest</TestFramework>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -24,9 +26,9 @@
     <Content Include="backend\open_webui\alembic.ini" />
     <Content Include="backend\open_webui\data\readme.txt" />
     <Content Include="backend\open_webui\static\assets\pdf-style.css" />
-    <Content Include="backend\open_webui\static\favicon.png" />
-    <Content Include="backend\open_webui\static\logo.png" />
-    <Content Include="backend\open_webui\static\splash.png" />
+    <Content Include="backend\open_webui\static\favicon_OI.png" />
+    <Content Include="backend\open_webui\static\logo_OI.png" />
+    <Content Include="backend\open_webui\static\splash_OI.png" />
     <Content Include="backend\open_webui\utils\logo.png" />
     <Content Include="backend\requirements.txt" />
     <Content Include="cypress\data\example-doc.txt" />
